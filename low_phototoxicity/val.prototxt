@@ -10,7 +10,7 @@ layer {
     mean_value: 32767
   }
   data_param {
-    source: "/ssd/DeadNetLocal/SurveyData/LMDBs/JenBobAnaYuyu/unbalanced_train/test_lmdb"
+	source: "<path/to/val/LMDB>"
     batch_size: 20
     backend: LMDB
   }
